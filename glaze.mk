@@ -13,12 +13,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+# Inherit some common GlazeOS stuff.
+$(call inherit-product, vendor/glaze/config/common_mini_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/p700/full_p700.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_p700
+PRODUCT_NAME := glaze_p700
 PRODUCT_RELEASE_NAME := L7
